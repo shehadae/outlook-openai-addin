@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:type="TaskPaneApp">
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
   <Id>c6206d43-8f4f-4d24-9f44-5f374dca2e5d</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Alshareef AI Solutions</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="OpenAI Outlook Add-in"/>
   <Description DefaultValue="AI features for Outlook using OpenAI."/>
-  <IconUrl DefaultValue="https://your-host.com/assets/icon.png"/>
-  <SupportUrl DefaultValue="https://your-host.com/support"/>
+  <IconUrl DefaultValue="https://shehadae.github.io/outlook-openai-addin/assets/icon.png"/>
+  <SupportUrl DefaultValue="https://shehadae.github.io/outlook-openai-addin/support.html"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>

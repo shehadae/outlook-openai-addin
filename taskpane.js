@@ -1,7 +1,7 @@
 async function summarizeEmail() {
   const item = Office.context.mailbox.item;
   const body = await new Promise(resolve => item.body.getAsync(Office.CoercionType.Text, result => resolve(result.value)));
-  const apiKey = 'YOUR_OPENAI_API_KEY_HERE';
+  const apiKey = 'YOUR_OPENAI_API_KEY_HERE'; // Replace this with your real OpenAI API key
 
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
