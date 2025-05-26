@@ -21,7 +21,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://your-host.com/taskpane.html"/>
+        <SourceLocation DefaultValue="https://shehadae.github.io/outlook-openai-addin/"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
